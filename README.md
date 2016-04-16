@@ -77,7 +77,7 @@ that provides an almost complete implementation of Haskell 98. Although it is no
 and satisfies all the needs for running this application.
 
 After launching **Hugs 98** you should run two commands:
- 1. ``:load interpreter.sh``
- 2. ``parseProgram program.in``
+ 1. ``:load interpreter.hs``
+ 2. ``parseProgram "program.in"``
 
-It will display the input program in the desccribed above representation.
+It will display the input program in the described above representation.
